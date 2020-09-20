@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OBDX Test Environment">
+
+	<listeners>
+		<listener class-name="testNG_OBDX.Listeners"/>
+	</listeners>
+
+  <test thread-count="5" name="E2EFlow of OBDX Test Cases">
+    
+    <classes>
+
+      <class name="testNG_OBDX.WMS_Redeem_1"/>
+      
+
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

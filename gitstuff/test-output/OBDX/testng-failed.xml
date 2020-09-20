@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OBDX]">
+  <test thread-count="5" name="E2EFlow(failed)">
+    <classes>
+      <class name="testNG_OBDX.WMS_PURCHASE">
+        <methods>
+          <include name="WMSOnetimePurchase"/>
+          <include name="WMSRecurringPurchaseSip"/>
+          <include name="WMSRecurringPurchaseSi"/>
+        </methods>
+      </class> <!-- testNG_OBDX.WMS_PURCHASE -->
+      <class name="testNG_OBDX.DEPOSITS">
+        <methods>
+          <include name="BreakFD"/>
+          <include name="BreakRD"/>
+        </methods>
+      </class> <!-- testNG_OBDX.DEPOSITS -->
+    </classes>
+  </test> <!-- E2EFlow(failed) -->
+</suite> <!-- Failed suite [OBDX] -->

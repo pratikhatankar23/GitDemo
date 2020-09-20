@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OBDX Test Environment]">
+  <listeners>
+    <listener class-name="testNG_OBDX.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="E2EFlow of OBDX Test Cases(failed)">
+    <classes>
+      <class name="testNG_OBDX.WMS_Redeem_1">
+        <methods>
+          <include name="Onetime_Switch"/>
+          <include name="setup"/>
+          <include name="WMSRedeemByAmount"/>
+          <include name="WMSRedeemByAll"/>
+          <include name="WMSRedeemBySWP"/>
+          <include name="Recurring_Switch_STP"/>
+          <include name="WMSRedeemByUnits"/>
+          <include name="Onetime_Purchase"/>
+        </methods>
+      </class> <!-- testNG_OBDX.WMS_Redeem_1 -->
+    </classes>
+  </test> <!-- E2EFlow of OBDX Test Cases(failed) -->
+</suite> <!-- Failed suite [OBDX Test Environment] -->
